@@ -21,6 +21,7 @@ body {
     display: flex;
     justify-content: center;
     font-family: RobotoRegular;
+    overflow: hidden;
 }
 
 .content {
@@ -58,4 +59,23 @@ body {
 .menuArea ul li a {
     color: inherit;
     text-decoration: none;
+}
+
+.titleArea {
+    position: absolute;
+    top: 37%;
+    left: 8%;
+}
+
+.titleArea h1 {
+    font-size: 100px;
+    letter-spacing: 2px;
+}
+
+.titleArea h2 {
+    font-size: 80px;
+}
+
+.titleArea h4 {
+    font-size: ;
 }
