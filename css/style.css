@@ -105,17 +105,43 @@ body {
 .quemSomosArea {
     background: #B7B7B7;
     width: 100%;
-    height: 500px;
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
 }
 
 .qsImg {
-    width: 100px;
-    height: 100px;
-    background-color: #a1a1a1;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#qsImg-1 {
+    background-image: url('../img/img1.png');
+}
+
+#qsImg-2 {
+    background-image: url('../img/img2.png');
+}
+
+#qsImg-3 {
+    background-image: url('../img/img3.png');
 }
 
 .qsColumns {
-    padding: 5% 10%;
+    padding: 15% 10%;
+}
+
+.mySlides {
+    display:none
+}
+
+.w3-left, .w3-right, .w3-badge {
+    cursor:pointer
+}
+
+.w3-badge {
+    height:13px;width:13px;padding:0
 }
