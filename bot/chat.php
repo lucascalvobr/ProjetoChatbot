@@ -1,6 +1,5 @@
 <?php
 include "Bot.php";
-include "Cotacao.php";
 
 $bot = new Bot;
 $questions = [
