@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assistência Técnica - Unknown</title>
+    <title>Assistência Técnica - ConsertaTECH</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/w3css.css">
     <link rel="shortcut icon" href="img/logo.png">
@@ -19,7 +19,7 @@
     <div class="menuArea">
         <img src="./img/logo.png" alt="">
         <ul>
-            <li><a href="index.html">HOME</a></li>
+            <li><a href="index.php">HOME</a></li>
             <li><a href="#">QUEM SOMOS</a></li>
             <li><a href="#">IMAGENS</a></li>
             <li><a href="#">CHAT</a></li>
@@ -93,7 +93,6 @@
     <script src="js/app.js"></script>
 
     <script>
-        // vamos criar um menu de entrada
         divCpu = document.createElement("div");
         chatBody = document.querySelector(".scroller");
         divCpu.className = "bot visible";
