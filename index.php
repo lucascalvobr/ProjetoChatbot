@@ -7,6 +7,7 @@
     <title>Assistência Técnica - Unknown</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/w3css.css">
+    <link rel="shortcut icon" href="img/maps.png">
 </head>
 
 <body>
@@ -28,19 +29,19 @@
         <div class="qsColumns">
             <div class="qsImg" id="qsImg-1"></div>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque saepe, reiciendis quae labore architecto
+                Lavagem de Placas.
             </p>
         </div>
         <div class="qsColumns">
             <div class="qsImg" id="qsImg-2"></div>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque saepe, reiciendis quae labore architecto
+                Aquecimento de Placas.
             </p>
         </div>
         <div class="qsColumns">
             <div class="qsImg" id="qsImg-3"></div>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque saepe, reiciendis quae labore architecto
+                Reparo em HD's.
             </p>
         </div>
     </div>
