@@ -64,7 +64,7 @@
         <div class="chatArea">
             <div class="chatbox">
                 <div class="header">
-                    <h4>ChatBot Assistência Técnica</h4>
+                    <h4>ChatBot ConsertaTECH</h4>
                     <br>
                     <p>Faça perguntas como: linux; php; dns; etc.</p>
                 </div>
@@ -88,6 +88,15 @@
     </div>
     <script src="js/jquery.js"></script>
     <script src="js/app.js"></script>
+
+    <script>
+        // vamos criar um menu de entrada
+        divCpu = document.createElement("div");
+        chatBody = document.querySelector(".scroller");
+        divCpu.className = "bot visible";
+        divCpu.innerHTML = "Olá, escreva uma das opções abaixo:<br><br>Localidade<br>Serviços<br>Preços<br>Prazo<br>Formas de envio";
+        chatBody.append(divCpu);
+    </script>
 </body>
 
 </html>

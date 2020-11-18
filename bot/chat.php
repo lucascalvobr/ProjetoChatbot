@@ -3,10 +3,12 @@ include "Bot.php";
 
 $bot = new Bot;
 $questions = [
-    "php" => "É uma linguagem de programação Server Side",
-    "linux" => "É um sistema operacional desenvolvido por Linus Torvald",
-    "dns" => "O DNS (Domain Name System) é um sistema de gestão de nomes para computadores",
-    "chatbot" => "É um programa de computador que tenta simular um ser humano na conversação com as pessoas",
+    "localidade" => "Rua Akida Ban 666 Capinho Quadrado - Taboão das Trevas - SP",
+    "serviços" => "Lavagem de placa<br>Aquecimento de placa<br>Reparo em HD",
+    "preços" => " Coisa simples: R$ 50,00<br>Fulano faz por tanto: R$ 110,00<br>Eu mesmo troquei: R$ 85,00<br>Peguei na internet: R$ 50,00<br>
+    Parou de funcionar sozinho: R$ 450,00 + peças<br>O filho do vizinho entende pra caramba: R$ 92,00<br>Favor para amigo: R$ 70,00<br>O aparelho não tem nada é só um 'detalhezinho': R$ 90,00",
+    "prazo" => "Pra ontem: 7 dias<br>Pra hoje: 15 dias<br>Sem pressa: 1 dia",
+    "formas de envio" => "Navio (MG)<br>Dinossauro (AC)<br>Via bala perdida (RJ)<br>Mobilete (Demais localidades)",
     "qual seu nome" => "Meu nome é " . $bot->getName(),
 ];
 
