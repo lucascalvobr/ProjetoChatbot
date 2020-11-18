@@ -7,7 +7,7 @@
     <title>Assistência Técnica - Unknown</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/w3css.css">
-    <link rel="shortcut icon" href="img/maps.png">
+    <link rel="shortcut icon" href="img/logo.png">
 </head>
 
 <body>
@@ -67,7 +67,7 @@
                 <div class="header">
                     <h4>ChatBot ConsertaTECH</h4>
                     <br>
-                    <p>Faça perguntas como: linux; php; dns; etc.</p>
+                    <p>Faça perguntas como as descritas no ChatBot</p>
                 </div>
                 <div class="body" id="chatbody">
                     <div class="scroller"></div>
@@ -85,7 +85,9 @@
     </div>
 
     <div class="footer">
-        <!-- Construção -->
+        <div class="mapa"></div>
+        <div class="endereco"></div>
+        <div class="direitos"></div>
     </div>
     <script src="js/jquery.js"></script>
     <script src="js/app.js"></script>
