@@ -39,9 +39,11 @@ body {
     height: 4em;
     display: flex;
     justify-content: space-between;
-    position: relative;
+    position: fixed;
     align-items: center;
     background-color: #B7B7B7;
+    top: 0;
+    z-index: 500000;
 }
 
 .menuArea img{
@@ -85,7 +87,7 @@ body {
 }
 
 
-.menuArea ul li:active {
+.menuArea ul li a:active {
     color: yellow;
 }
 

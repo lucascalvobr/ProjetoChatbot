@@ -20,12 +20,12 @@
         <img src="./img/logo.png" alt="">
         <ul>
             <li><a href="index.php">HOME</a></li>
-            <li><a href="#">QUEM SOMOS</a></li>
-            <li><a href="#">IMAGENS</a></li>
-            <li><a href="#">CHAT</a></li>
+            <li><a href="#quemSomosArea">QUEM SOMOS</a></li>
+            <li><a href="#imagens">IMAGENS</a></li>
+            <li><a href="#chat">CHAT</a></li>
         </ul>
     </div>
-    <div class="quemSomosArea">
+    <div class="quemSomosArea" id="quemSomosArea">
         <div class="qsColumns">
             <div class="qsImg" id="qsImg-1"></div>
             <p>
@@ -46,7 +46,7 @@
         </div>
     </div>
 
-    <div class="w3-content w3-display-container" style="width: 95%;">
+    <div class="w3-content w3-display-container" style="width: 95%;" id="imagens">
         <img class="mySlides" src="./img/imgCarrosel1.png" style="width:100%">
         <img class="mySlides" src="./img/imgCarrosel2.png" style="width:100%">
         <img class="mySlides" src="./img/imgCarrosel3.png" style="width:100%">
@@ -61,7 +61,7 @@
     </div>
 
     <div class="chatBotArea">
-        <h4>ChatBot</h4>
+        <h4 id="chat">ChatBot</h4>
         <div class="chatArea">
             <div class="chatbox">
                 <div class="header">
@@ -98,6 +98,18 @@
         divCpu.className = "bot visible";
         divCpu.innerHTML = "Olá, escreva uma das opções abaixo:<br><br>Localidade<br>Serviços<br>Preços<br>Prazo<br>Formas de envio";
         chatBody.append(divCpu);
+
+
+        $('.menuArea a[href^="#"]').on('click', function(e) {
+        e.preventDefault();
+        var id = $(this).attr('href'),
+        targetOffset = $(id).offset().top;
+            
+        $('html, body').animate({ 
+            scrollTop: targetOffset - 100
+        }, 500);
+        });
+
     </script>
 </body>
 
