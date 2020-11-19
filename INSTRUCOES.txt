@@ -1,0 +1,10 @@
+O Projeto ConsertaTec roda automaticamente pelo Xamp, Adicionando a Pasta ao HTDOCS e chamando 
+pelo local host.
+
+Somente isso.
+
+Link do GitHub caso Precise.
+
+https://github.com/lucascalvobr/ProjetoChatbot.git
+
+O projeto é de finalidade estudantil e pode ser usado por qualquer um que queira.
