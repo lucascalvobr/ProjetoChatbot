@@ -66,9 +66,15 @@ const getMessage = (msg) => {
 
 btnSend.addEventListener("click", (e) => {
     e.preventDefault();
-    if (chat.value == "") {
-    } else {
+    scrollDown();
+    if (chat.value == "") {} else {
         getMessage(chat.value);
         chat.value = "";
     }
 });
+
+function scrollDown() {
+    $('.body').animate({
+        scrollTop: $(this).height() // aqui introduz o numero de px que quer no scroll, neste caso é a altura da propria div, o que faz com que venha para o fim
+    }, 100);
+}

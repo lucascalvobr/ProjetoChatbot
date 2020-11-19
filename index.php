@@ -22,7 +22,7 @@
             <li><a href="index.php">HOME</a></li>
             <li><a href="#quemSomosArea">QUEM SOMOS</a></li>
             <li><a href="#imagens">IMAGENS</a></li>
-            <li><a href="#chat">CHAT</a></li>
+            <li><a href="#chatt">CHAT</a></li>
         </ul>
     </div>
     <div class="quemSomosArea" id="quemSomosArea">
@@ -61,7 +61,7 @@
     </div>
 
     <div class="chatBotArea">
-        <h4 id="chat">ChatBot</h4>
+        <h4 id="chatt">ChatBot</h4>
         <div class="chatArea">
             <div class="chatbox">
                 <div class="header">
