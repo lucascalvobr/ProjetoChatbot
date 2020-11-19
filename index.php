@@ -19,10 +19,10 @@
     <div class="menuArea">
         <img src="./img/logo.png" alt="">
         <ul>
-            <li><a href="index.php">HOME</a></li>
-            <li><a href="#quemSomosArea">QUEM SOMOS</a></li>
-            <li><a href="#imagens">IMAGENS</a></li>
-            <li><a href="#chatt">CHAT</a></li>
+            <li><a href="index.php" class="anchor active">HOME</a></li>
+            <li><a href="#quemSomosArea" class="anchor">QUEM SOMOS</a></li>
+            <li><a href="#imagens" class="anchor">IMAGENS</a></li>
+            <li><a href="#chatt" class="anchor">CHAT</a></li>
         </ul>
     </div>
     <div class="quemSomosArea" id="quemSomosArea">
@@ -108,6 +108,15 @@
         $('html, body').animate({ 
             scrollTop: targetOffset - 100
         }, 500);
+        });
+
+        var anchor = document.querySelectorAll('.anchor');
+
+        $(anchor).on('click', e => {
+            anchor.forEach(item => {
+                item.className = 'anchor';
+            })
+            e.target.className = 'anchor active';
         });
 
     </script>

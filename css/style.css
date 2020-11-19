@@ -88,6 +88,10 @@ body {
 
 
 .menuArea ul li a:active {
+    color: gray;
+}
+
+.menuArea ul li a.active {
     color: yellow;
 }
 
