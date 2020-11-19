@@ -56,6 +56,7 @@ const getMessage = (msg) => {
             chatBody.append(divUser);
             setTimeout(() => {
                 chatBody.append(divCpu);
+                scrollDown();
             }, 600);
         }
     };
